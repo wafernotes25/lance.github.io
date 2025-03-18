@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <style>
+    /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff4081, #ff9800);
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #ffd700;
+}
+
+/* Responsive Embedded Media */
+.responsive-iframe {
+    width: 80%; /* Adjust width to be responsive */
+    max-width: 400px; /* Limit max width */
+    height: 225px; /* Reduce height */
+    border-radius: 10px;
+    border: 3px solid #ffd700;
+    transition: transform 0.3s ease-in-out;
+}
+
+.responsive-iframe:hover {
+    transform: scale(1.03);
+}
+
+/* Image Map */
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Section */
+p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #ff4081, #ff9800);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+  </style>
+    <header>
+        <h1>Welcome to our Portfolio </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section id="about">
+    <h2>About Us</h2>
+    <<section id="about">
+    <h2>About Jumar Miro</h2>
+    <p>Hi, I'm Jumar Miro, a passionate web developer who loves bringing ideas to life through code. I'm all about solving problems and creating user-friendly websites that function perfectly. I focus on making sure everything runs smoothly on the back end while ensuring a seamless experience for the users.</p>
+</section>
+
+<section id="about-friend">
+    <h2>About Joseph Lance Olipe</h2>
+    <p>Hey, I'm Joseph Lance Olipe, a web designer with a keen eye for detail. I focus on creating beautiful and intuitive websites that people love to use. My goal is to combine functionality with amazing design, ensuring that every project is not only easy to navigate but also visually stunning.</p>
+</section>
+
+
+
+
+        <section id="projects">
+            <h2>Projects</h2>   
+            <p>Check out my work below:</p>
+
+            <!-- Embedded YouTube Video (Smaller) -->
+            <h3>My Favorite Video</h3>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/SbAKYgfYET8?si=ApoX3XfHJX8VByve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <!-- Google Map (Smaller) -->
+            <h3>My University Location</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.591781199382!2d123.89344197581175!3d10.294438167897457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1742203187980!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!-- Image Map -->
+            <h3>Click on the Icon</h3>
+            <img src="map.jpg" usemap="#workmap" width="300">
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Project">
+            </map>
+        </section>
+
+        <section id="contact">
+		
+            <h2>Contact Us</h2>
+            <p>Email: jumarmiro8@gmail.com </p>
+			<p>Facebook: <a href="https://www.facebook.com/jumar.miro.7">Jumar Miro</a></p>
+			<p>Email: olipejl@gmail.com</p>
+			<p>Facebook: <a href="https://www.facebook.com/jl.olipe">Joseph lance olipe</a></p>
+            <p>Our favorite emojis: &#x1F600; &#x1F601; &#x1F602;</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MIRO and OLIPE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+  
+</body>
+
+</html>
